@@ -47,12 +47,14 @@ body, * {
 
 .content--left--title-wrapper--icon, .content--right--title-wrapper--icon {
   margin-left: auto;
+  cursor: pointer;
 }
 
 .content--left--title-wrapper--price, .content--right--title-wrapper--price {
   margin-left: auto;
   font-size: 24px;
   color: #444750;
+  cursor: pointer;
 }
 
 .content--left--card, .content--right--card {
@@ -67,6 +69,7 @@ body, * {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  cursor: pointer;
 }
 
 .content--left--card--list, .content--right--card--list {
@@ -90,13 +93,13 @@ body, * {
 }
 
 .content--left--card--list--item--icon, .content--right--card--list--item--icon {
-  padding: 0px 7px 2px;
+  width: 22px;
+  height: 22px;
   border: 1px solid #e0dede;
   border-radius: 999px;
   color: #615e5e;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -113,6 +116,7 @@ body, * {
   font-size: 16px;
   letter-spacing: 1.2px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .content--left--card--list--item--texts--sub, .content--right--card--list--item--texts--sub {
